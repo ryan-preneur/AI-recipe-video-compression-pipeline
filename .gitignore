@@ -1,0 +1,31 @@
+# Private settings and local-only data
+backend/.env
+backend/.env.*
+!backend/.env.example
+frontend/.env.local
+frontend/.env.*.local
+!frontend/.env.example
+backend/data/
+*.sqlite3
+
+# Python
+backend/.venv/
+.venv/
+venv/
+env/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+frontend/.npm-cache/
+
+# Local tooling and OS files
+.DS_Store
+Thumbs.db
+*.log
